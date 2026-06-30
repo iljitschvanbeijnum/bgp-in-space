@@ -1,2 +1,2 @@
 # bgp-in-space
-A set of Python scripts to simulate running BGP between satellites
+A set of Python scripts to simulate running BGP between satellites. The output is the distance between sets of satellites and whether that's within reach of optical inter-satellite link range, but when configured to to so, the scripts will fire up FRR routers in Docker containers that will connect to each other when in range in order to evaluate whether BGP can handle the dynamics of inter-domain routing in space.
