@@ -30,7 +30,7 @@ python3 stars6
 ### Running the constellations
 
 You need to have Docker running before you run this simulator.
-You can then python3 connect.py ConsA-01 / SIXP0[1-6] / ConsB-01 to
+You can then python3 connect.py ConsA-01 / SIXP0[1-6] / ConsC-01 to
 connect to that router and execute FRR commands.
 Or add "bash" and you're on the commandline of that container. Or something like "show ip bgp summary" and you get the results of that command.
 To start the constellation with routers, run stars6docker:
